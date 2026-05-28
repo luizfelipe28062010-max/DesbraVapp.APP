@@ -53,6 +53,15 @@ class ContatoScreen extends StatelessWidget {
               ),
               onPressed: () => _abrir('https://instagram.com/seuinstagram'),
             ),
+            const SizedBox(height: 12),
+            ElevatedButton.icon(
+              icon: const Icon(Icons.language),
+              label: const Text('Acesse nosso site'),
+              style: ElevatedButton.styleFrom(
+                minimumSize: const Size(double.infinity, 50),
+              ),
+              onPressed: () => _abrir('https://desbra-vapp-vercel.vercel.app/'),
+            ),
           ],
         ),
       ),
