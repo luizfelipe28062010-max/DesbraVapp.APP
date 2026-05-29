@@ -18,7 +18,8 @@ lib/
 │   ├── locais_screen.dart     
 │   ├── quiz_screen.dart       
 │   ├── perfil_screen.dart     
-│   └── contato_screen.dart    
+│   └── contato_screen.dart 
+|   └── ranking_screen.dart
 └── widgets/
     └── gaveta.dart            
 
